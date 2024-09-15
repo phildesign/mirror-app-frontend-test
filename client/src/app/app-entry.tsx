@@ -1,8 +1,10 @@
-import "normalize.css";
-import "./styles/index.css";
+import { MainPage } from '../pages';
 
-function App() {
-  return <h1>Hi dev!</h1>;
-}
+import 'normalize.css';
+import './styles/index.css';
+
+const App = (): JSX.Element => {
+	return <MainPage />;
+};
 
 export default App;
